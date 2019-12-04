@@ -34,6 +34,16 @@ return [
                     ],
                 ],
             ],
+            'ajax' => [
+                'type'    => Literal::class,
+                'options' => [
+                    'route'    => '/ajax',
+                    'defaults' => [
+                        'controller' => Controller\IndexController::class,
+                        'action'     => 'ajax',
+                    ],
+                ],
+            ],
         ],
     ],
     'controllers' => [

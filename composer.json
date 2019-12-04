@@ -17,11 +17,13 @@
         "zendframework/zend-db": "^2.10.0",
         "zendframework/zend-mvc-form": "^1.0",
         "zendframework/zend-json": "^3.1.2",
-        "zendframework/zend-log": "^2.11"
+        "zendframework/zend-log": "^2.11",
+        "ext-json": "*"
     },
     "autoload": {
         "psr-4": {
-            "Application\\": "module/Application/src/"
+            "Application\\": "module/Application/src/",
+            "Ajax\\": "module/Ajax/src/"
         }
     },
     "autoload-dev": {
